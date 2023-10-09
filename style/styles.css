@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(16, 150, 157);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+}
+article{
+    background-color: rgb(115, 192, 195);
+    flex: 2 2 10%;
+    padding: 1vw;
+}
+nav,aside{
+    flex: 1;
+}
+nav{
+    order: -1;
+}
+header, footer{
+   flex: 0 0 5;
+}
